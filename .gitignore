@@ -1,0 +1,44 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Terraform lock file
+# Keep this file in Git for provider version consistency
+!.terraform.lock.hcl
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+.env
+.env.*
+
+# AWS credentials
+.aws/
+credentials
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
